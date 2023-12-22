@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   background: rgba(236, 236, 236, 0.218) !important;
+  border: 1px solid red;
+  overflow-x: hidden;
 }
 p,
 .paragraph {
@@ -679,6 +681,7 @@ Feature product start*/
 Top Categories start*/
 .topProductMainWrapper {
   margin: 0 160px;
+  overflow: hidden;
 }
 .swiper {
   margin: 0;
@@ -754,10 +757,10 @@ All Products show start*/
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   list-style: none;
 }
-
 .filterNav ul li button {
   padding: 5px;
   text-transform: uppercase;
